@@ -14634,42 +14634,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: AudioManager
       objectReference: {fileID: 0}
-    - target: {fileID: 1947105946141875898, guid: 774ecc87b0a669d498c40b671f86b409, type: 3}
-      propertyPath: m_IsActive
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 4313565843150925029, guid: 774ecc87b0a669d498c40b671f86b409, type: 3}
-      propertyPath: audioMixer
-      value: 
-      objectReference: {fileID: 24100000, guid: bca30cd67b449f343bdd7b3d5be01f98, type: 2}
-    - target: {fileID: 7827729983414617868, guid: 774ecc87b0a669d498c40b671f86b409, type: 3}
-      propertyPath: audioSource.Array.size
-      value: 3
-      objectReference: {fileID: 0}
-    - target: {fileID: 7827729983414617868, guid: 774ecc87b0a669d498c40b671f86b409, type: 3}
-      propertyPath: audioSource.Array.data[1].groupID
-      value: BarrelSpawn
-      objectReference: {fileID: 0}
-    - target: {fileID: 7827729983414617868, guid: 774ecc87b0a669d498c40b671f86b409, type: 3}
-      propertyPath: audioSource.Array.data[2].groupID
-      value: OnWinSound
-      objectReference: {fileID: 0}
-    - target: {fileID: 7827729983414617868, guid: 774ecc87b0a669d498c40b671f86b409, type: 3}
-      propertyPath: audioSource.Array.data[1].audioClip.Array.size
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 7827729983414617868, guid: 774ecc87b0a669d498c40b671f86b409, type: 3}
-      propertyPath: audioSource.Array.data[2].audioClip.Array.size
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 7827729983414617868, guid: 774ecc87b0a669d498c40b671f86b409, type: 3}
-      propertyPath: audioSource.Array.data[1].audioClip.Array.data[0]
-      value: 
-      objectReference: {fileID: 8300000, guid: 256842431b6953a43a1ea3575bbb46b3, type: 3}
-    - target: {fileID: 7827729983414617868, guid: 774ecc87b0a669d498c40b671f86b409, type: 3}
-      propertyPath: audioSource.Array.data[2].audioClip.Array.data[0]
-      value: 
-      objectReference: {fileID: 8300000, guid: 5a1ae25533a7bb3458f131e3f03da611, type: 3}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []

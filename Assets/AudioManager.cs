@@ -49,6 +49,7 @@ public class AudioManager : MonoBehaviour
 
     private void OnDoneSpawnBarrel()
     {
+        Debug.Log("NOT PLAY SOUND");
         PlaySound(AudioName.OnBarrelSpawn);
     }
 

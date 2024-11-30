@@ -93,6 +93,7 @@ public class MainMenuUI : MonoBehaviour
     }
     public void LoadMixer()
     {
+        Debug.Log("LOAD MIXER");
         float musicVol = PlayerPrefs.GetFloat("musicVol", 1);
         float sfxVol = PlayerPrefs.GetFloat("sfxVol", 1);
         music.value = musicVol;

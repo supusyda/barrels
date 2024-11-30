@@ -32,7 +32,7 @@ Transform:
   - {fileID: 2951275985783817085}
   - {fileID: 8434644378978616780}
   m_Father: {fileID: 0}
-  m_RootOrder: 3
+  m_RootOrder: 11
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &4313565843150925029
 MonoBehaviour:
@@ -51,6 +51,7 @@ MonoBehaviour:
   sfxSource: {fileID: 3090834194194067083}
   musicSource: {fileID: 6746453641447216323}
   musicFadeDurrationSec: 1
+  audioMixer: {fileID: 24100000, guid: bca30cd67b449f343bdd7b3d5be01f98, type: 2}
 --- !u!1 &3271556661334934385
 GameObject:
   m_ObjectHideFlags: 0
@@ -93,7 +94,7 @@ AudioSource:
   m_GameObject: {fileID: 3271556661334934385}
   m_Enabled: 1
   serializedVersion: 4
-  OutputAudioMixerGroup: {fileID: 0}
+  OutputAudioMixerGroup: {fileID: 8504621214500467932, guid: bca30cd67b449f343bdd7b3d5be01f98, type: 2}
   m_audioClip: {fileID: 0}
   m_PlayOnAwake: 0
   m_Volume: 1
@@ -241,7 +242,7 @@ AudioSource:
   m_GameObject: {fileID: 8800426192908749279}
   m_Enabled: 1
   serializedVersion: 4
-  OutputAudioMixerGroup: {fileID: 0}
+  OutputAudioMixerGroup: {fileID: -3364981123172434043, guid: bca30cd67b449f343bdd7b3d5be01f98, type: 2}
   m_audioClip: {fileID: 0}
   m_PlayOnAwake: 1
   m_Volume: 1
@@ -344,3 +345,9 @@ MonoBehaviour:
   - groupID: BarrelMove
     audioClip:
     - {fileID: 8300000, guid: b842806098df69845b8e5448df659b08, type: 3}
+  - groupID: BarrelSpawn
+    audioClip:
+    - {fileID: 8300000, guid: 256842431b6953a43a1ea3575bbb46b3, type: 3}
+  - groupID: OnWinSound
+    audioClip:
+    - {fileID: 8300000, guid: 5a1ae25533a7bb3458f131e3f03da611, type: 3}
